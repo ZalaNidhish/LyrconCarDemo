@@ -54,8 +54,16 @@ const AllUsers = () => {
                   </td>
                   <td className=" border border-neutral-300">
                     <div className="flex gap-8 justify-center items-center w-full h-full">
-                      <img src={edit} alt="" className="w-4 h-4" />
-                      <img src={deleteicon} alt="" className="w-4 h-4" />
+                       <div className="p-1 cursor-pointer hover:bg-neutral-200 rounded-md">
+                        <img src={edit} alt="" className="w-4 h-4" />
+                      </div>
+                      <div className="p-1 cursor-pointer hover:bg-neutral-200 rounded-md">
+                        <img
+                          src={deleteicon}
+                          alt=""
+                          className="w-4 h-4 cursor-pointer"
+                        />
+                      </div>
                     </div>
                   </td>
                 </tr>
@@ -75,8 +83,16 @@ const AllUsers = () => {
                   </td>
                   <td className=" border border-neutral-300">
                     <div className="flex items-center justify-center w-full h-full gap-8">
-                      <img src={edit} alt="" className="w-4 h-4" />
-                      <img src={deleteicon} alt="" className="w-4 h-4" />
+                      <div className="p-1 cursor-pointer hover:bg-neutral-200 rounded-md">
+                        <img src={edit} alt="" className="w-4 h-4" />
+                      </div>
+                      <div className="p-1 cursor-pointer hover:bg-neutral-200 rounded-md">
+                        <img
+                          src={deleteicon}
+                          alt=""
+                          className="w-4 h-4 cursor-pointer"
+                        />
+                      </div>
                     </div>
                   </td>
                 </tr>

@@ -6,3 +6,14 @@
     font-weight: 500;    
 }
 
+.dropside{
+    display: flex;
+}
+
+.sidepanel{
+    transition: width 0.3s ease;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

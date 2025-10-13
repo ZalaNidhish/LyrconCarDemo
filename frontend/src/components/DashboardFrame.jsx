@@ -4,7 +4,7 @@ import DashboardCards from "./DashboardCards";
 
 const DashboardFrame = () => {
   return (
-    <div className="w-[78%] h-screen overflow-hidden">
+    <div className="framepanel w-[78%] h-screen overflow-hidden">
 
       <Nav title={"DASHBOARD"} />
       <div className="h-10/11 w-full flex flex-col items-center bg-slate-100 p-8 overflow-y-scroll">

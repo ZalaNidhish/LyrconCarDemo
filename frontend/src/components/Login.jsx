@@ -51,7 +51,7 @@ const Login = () => {
             <h2>REMEMBER ME</h2>
           </div>
           <Link to='/dashboard' className="w-[80%] rounded">
-            <button type="submit" className="bg-blue-400 h-10 cursor-pointer w-full text-white hover:bg-blue-300 hover:text-black transition-all duration-300">
+            <button type="submit" className="bg-blue-400 h-10 cursor-pointer w-full text-white hover:bg-blue-300 hover:text-black transition-all duration-300 rounded-md">
               Sign in
             </button>
           </Link>
