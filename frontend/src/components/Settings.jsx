@@ -7,7 +7,7 @@ const Settings = () => {
     <div className="flex w-screen h-screen overflow-hidden">
       <SidePanel />
 
-      <div className="h-screen w-4/5 flex flex-col bg-slate-100">
+      <div className="h-screen flex flex-col bg-slate-100 framepanel w-[78%] overflow-y-scroll">
         <Nav title={"SETTINGS"} />
         <div className="w-full p-4 flex flex-col gap-4">
           <form
