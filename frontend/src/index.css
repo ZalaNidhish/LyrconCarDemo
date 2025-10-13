@@ -18,3 +18,11 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+.dropdown{
+    transition: max-height 0.3s ease-out;
+}
+
+.downarrow{
+    transition: transform 0.3s ease;
+}

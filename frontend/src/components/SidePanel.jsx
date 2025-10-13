@@ -10,6 +10,11 @@ const SidePanel = () => {
 
   const handleClick = () => {
     setIsOpen(!isOpen);
+    if (isOpen) {
+      document.querySelector(".downarrow").style.transform = "rotate(0deg)";
+    } else {
+      document.querySelector(".downarrow").style.transform = "rotate(180deg)";
+    }
     expand();
   };
 
@@ -132,7 +137,7 @@ const SidePanel = () => {
             <h1 className="w-full h-full text-[14px] focus:font-medium items-center dropside">
               USERS
             </h1>
-            <img src={downarrow} alt="" className="w-4 h-4 dropside" />
+            <img src={downarrow} alt="" className="w-4 h-4 dropside downarrow" />
           </div>
           {isOpen && (
             <div className="dropdown w-full flex flex-col gap-2 px-2 ml-8 mr-4 border-l-2 border-blue-400">
