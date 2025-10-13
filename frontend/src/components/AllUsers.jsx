@@ -8,7 +8,7 @@ const AllUsers = () => {
   return (
     <div className="flex w-screen h-screen overflow-hidden">
       <SidePanel />
-      <div className="h-screen w-4/5 flex flex-col bg-slate-100">
+      <div className="h-screen framepanel w-[78%] flex flex-col bg-slate-100">
         <Nav title={"USERS"} />
         <div className="py-7 px-4">
           <div className="w-full p-4 flex flex-col gap-4 bg-white rounded-md shadow-md">
