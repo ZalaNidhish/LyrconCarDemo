@@ -48,7 +48,7 @@ const SidePanel = () => {
   return (
     <div className="w-[22%] h-screen border-1 sidepanel">
 
-      <div className="w-full h-13 px-6 py-3 flex items-center justify-center border-b-1">
+      <div className="w-full h-[9%] px-6 py-3 flex items-center justify-center border-b-1">
         <div
           className="cursor-pointer flex w-full items-center justify-center"
           onClick={collapse}
@@ -60,8 +60,8 @@ const SidePanel = () => {
         </div>
       </div>
 
-      <div className="overflow-y-scroll no-scrollbar h-[80%] mt-2">
-        <div className="w-full h-14 px-4 py-2 flex items-center justify-center">
+      <div className="overflow-y-scroll no-scrollbar h-[81%] mt-2">
+        <div className="w-full h-[11%] px-4 py-2 flex items-center justify-center">
           <div className="cursor-pointer w-full h-full flex items-center justify-center gap-2 hover:bg-blue-50 hover:text-blue-400 rounded-md transition-all duration-300"  onClick={expand} >
             <NavLink
               to="/dashboard"
@@ -75,7 +75,7 @@ const SidePanel = () => {
           </div>
         </div>
 
-        <div className="w-full h-13 px-4 py-2 flex items-center justify-center">
+        <div className="w-full h-[11%] px-4 py-2 flex items-center justify-center">
           <div className="cursor-pointer flex items-center justify-center gap-2 p-2 w-full h-full hover:bg-blue-50 hover:text-blue-400 rounded-md transition-all duration-300"  onClick={expand} >
             <img src={icon} alt="" className="w-4 h-4"/>
             <h1 className="w-full h-full text-[14px] focus:font-medium items-center dropside">
@@ -85,7 +85,7 @@ const SidePanel = () => {
           </div>
         </div>
 
-        <div className="w-full h-13 px-4 py-2 flex items-center justify-center">
+        <div className="w-full h-[11%] px-4 py-2 flex items-center justify-center">
           <div className="cursor-pointer w-full h-full flex items-center justify-center gap-2 p-2 hover:bg-blue-50 hover:text-blue-400 rounded-md transition-all duration-300"  onClick={expand} >
             <img src={icon} alt="" className="w-4 h-4" onClick={expand} />
             <h1 className="w-full h-full text-[14px] focus:font-medium items-center dropside">
@@ -94,7 +94,7 @@ const SidePanel = () => {
             <img src={downarrow} alt="" className="w-4 h-4 dropside" />
           </div>
         </div>
-        <div className="w-full h-13 px-4 py-2 flex items-center justify-center">
+        <div className="w-full h-[11%] px-4 py-2 flex items-center justify-center">
           <div className="cursor-pointer w-full h-full flex items-center justify-center gap-2 p-2 hover:bg-blue-50 hover:text-blue-400 rounded-md transition-all duration-300"  onClick={expand} >
             <img src={icon} alt="" className="w-4 h-4" onClick={expand} />
             <h1 className="w-full h-full text-[14px] focus:font-medium items-center dropside">
@@ -103,7 +103,7 @@ const SidePanel = () => {
             <img src={downarrow} alt="" className="w-4 h-4 dropside" />
           </div>
         </div>
-        <div className="w-full h-13 px-4 py-2 flex items-center justify-center">
+        <div className="w-full h-[11%] px-4 py-2 flex items-center justify-center">
           <div className="cursor-pointer w-full h-full flex items-center justify-center gap-2 p-2 hover:bg-blue-50 hover:text-blue-400 rounded-md transition-all duration-300"  onClick={expand} >
             <img src={icon} alt="" className="w-4 h-4" />
             <h1 className="w-full h-full text-[14px] focus:font-medium items-center dropside">
@@ -112,7 +112,7 @@ const SidePanel = () => {
             <img src={downarrow} alt="" className="w-4 h-4 dropside" />
           </div>
         </div>
-        <div className="w-full h-13 px-4 py-2 flex items-center justify-center">
+        <div className="w-full h-[11%] px-4 py-2 flex items-center justify-center">
           <div className="cursor-pointer w-full h-full flex items-center justify-center gap-2 p-2 hover:bg-blue-50 hover:text-blue-400 rounded-md transition-all duration-300"  onClick={expand} >
             <img src={icon} alt="" className="w-4 h-4" />
             <h1 className="w-full h-full text-[14px] focus:font-medium items-center dropside">
@@ -121,7 +121,7 @@ const SidePanel = () => {
             <img src={downarrow} alt="" className="w-4 h-4 dropside" />
           </div>
         </div>
-        <div className="w-full h-13 px-4 py-2 flex items-center justify-center">
+        <div className="w-full h-[11%] px-4 py-2 flex items-center justify-center">
           <div className="cursor-pointer w-full h-full flex items-center justify-center gap-2 p-2 hover:bg-blue-50 hover:text-blue-400 rounded-md transition-all duration-300"  onClick={expand} >
             <img src={icon} alt="" className="w-4 h-4" />
             <h1 className="w-full h-full text-[14px] focus:font-medium items-center dropside">
@@ -130,7 +130,7 @@ const SidePanel = () => {
             <img src={downarrow} alt="" className="w-4 h-4 dropside" />
           </div>
         </div>
-        <div className="w-full min-h-13 px-4 py-2 flex flex-col gap-2 items-center justify-center">
+        <div className="w-full min-h-[11%] px-4 py-2 flex flex-col gap-2 items-center justify-center">
           <div
             onClick={handleClick}
             className="tab cursor-pointer w-full h-full flex items-center justify-center gap-2 p-2 hover:bg-blue-50 hover:text-blue-400 rounded-md transition-all duration-300" >
@@ -161,7 +161,7 @@ const SidePanel = () => {
             </div>
           )}
         </div>
-        <div className="w-full h-13 px-4 py-2 flex items-center justify-center">
+        <div className="w-full h-[11%] px-4 py-2 flex items-center justify-center">
           <NavLink to={"/settings"} className="w-full h-full">
             <div className="cursor-pointer w-full h-full flex items-center justify-center gap-2 p-2 hover:bg-blue-50 hover:text-blue-400 rounded-md transition-all duration-300"  onClick={expand} >
               <img src={icon} alt="" className="w-4 h-4" />
@@ -172,7 +172,7 @@ const SidePanel = () => {
           </NavLink>
         </div>
       </div>
-      <div className="w-full h-13 px-4 py-2 flex items-center justify-center">
+      <div className="w-full h-[9%] px-4 py-2 flex items-center justify-center">
         <div className=" cursor-pointer w-full h-full hover:bg-blue-50 hover:text-blue-400 rounded-md transition-all duration-300"  onClick={expand} >
           <NavLink
             to="/"
