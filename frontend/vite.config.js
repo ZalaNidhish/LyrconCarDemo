@@ -5,7 +5,8 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-   server: {
+  server: {
+    historyApiFallback: true,
     allowedHosts: ["noncompetent-diagonally-sharika.ngrok-free.dev"]
   }
 })
