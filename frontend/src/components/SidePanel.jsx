@@ -47,6 +47,7 @@ const SidePanel = () => {
 
   return (
     <div className="w-[22%] h-screen border-1 sidepanel">
+
       <div className="w-full h-13 px-6 py-3 flex items-center justify-center border-b-1">
         <div
           className="cursor-pointer flex w-full items-center justify-center"
@@ -59,7 +60,7 @@ const SidePanel = () => {
         </div>
       </div>
 
-      <div className="overflow-y-scroll no-scrollbar h-9/11 mt-2">
+      <div className="overflow-y-scroll no-scrollbar h-[80%] mt-2">
         <div className="w-full h-14 px-4 py-2 flex items-center justify-center">
           <div className="cursor-pointer w-full h-full flex items-center justify-center gap-2 hover:bg-blue-50 hover:text-blue-400 rounded-md transition-all duration-300"  onClick={expand} >
             <NavLink
